@@ -1,0 +1,14 @@
+.searchitem-abstract {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+            line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.searchitem-author {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
